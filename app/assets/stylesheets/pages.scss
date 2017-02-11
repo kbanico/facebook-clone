@@ -11,4 +11,22 @@ body{
   position: absolute;
   z-index: 1;
   width: 200px;
+  margin: 0 auto;
+}
+
+.front-title {
+  margin-top: 100px;
+}
+
+.landing {
+  background: image-url("background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.jumbotron{
+  background: rgba(255,255,255,0.7)
 }
